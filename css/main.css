@@ -1,0 +1,169 @@
+body{
+    margin: 0
+}
+
+.clear{
+    clear: both
+}
+
+nav{
+    height: 150px;
+    width: 100%;
+
+}
+nav img{
+    float: left;
+    height: 150px;
+    width: 30%
+}
+
+nav ul{
+    list-style: none;
+    float: right;
+    height: 150px;
+    line-height: 150px;
+    width: 62%;
+    text-align: right
+}
+
+nav li{
+    display: inline-block;
+    padding: 4px
+}
+
+nav button{
+    padding: 5px 20px;
+    font-size: 16px;
+    font-weight: 700;
+    border-radius: 5px;
+    border: 1px solid gray
+}
+
+nav button:hover{
+    background: black;
+    color: white
+}
+
+.s-man{
+    width: 100%;
+    height: 380px;
+    background-color: #dde5e7;
+    position: relative;
+    margin-top: 50px;
+    -ms-touch-select: 
+}
+
+.pics{
+    position: absolute;
+    width: 60%;
+    top: 175px;
+    z-index: 1;
+}
+
+.pics .pic{
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: solid 1px gray;
+    margin-left: 16px;
+    padding: 5px;
+    background-color: white;
+    overflow: hidden;
+}
+
+.pic img{
+    height: 99%;
+}
+
+.text{
+    width: 60%;
+    float: left;
+    bottom: 0px;
+    position: absolute;
+    margin-left: 15px
+}
+
+.text p{
+    font-weight: 600
+}
+
+.s-man img{
+    float: right;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    float: right;
+}
+
+.middle{
+    margin: 10px auto;
+    width: 98%;
+    height: 700px;
+}
+
+.firstT{
+    width: 25%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    float: left;
+    
+}
+
+.centerT{
+    display: inline-block;
+    width: 46%;
+    height: 100%;
+    margin: 0;
+    padding: 0px 1.5% 0px 1.5%
+}
+
+.lastT{
+    width: 25%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    float: right;
+}
+
+.chapter{
+    height: 32%;
+    border-bottom: dashed black 3px;
+    padding: 5px
+}
+
+.chapterM{
+    height: 48%;
+    border-bottom: dashed black 3px;
+    padding: 5px
+}
+
+.x{
+    border: none
+}
+footer{
+    width: 100%;
+    background: #f5f5f5;
+    
+}
+
+footer .contacts{
+    width: 85%;
+    margin: 0 auto;
+    color: #988a88;
+    text-align: center
+}
+
+.contacts .contact{
+    width: 19.5%;
+    height: 150px;
+    display: inline-block;
+   
+}
+
+.xx{
+    float: right;
+}
+
+
